@@ -1,0 +1,165 @@
+.containter {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 650px 1fr;
+  grid-template-rows: 200px 1fr 100px;
+  grid-template-areas:
+    "titulo titulo titulo"
+    "player1 selecao player2"
+    "nome1 vs nome2";
+}
+
+.logo {
+  height: 100%;
+  grid-area: titulo;
+  align-self: center;
+  justify-self: center;
+}
+
+.player1 {
+  grid-area: player1;
+  justify-self: flex-end;
+  align-self: center;
+  /* background-color: red; */
+}
+
+.player2 {
+  grid-area: player2;
+  justify-self: flex-start;
+  align-self: center;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -webkit-transform:;
+}
+
+.img-player {
+  width: 500px;
+}
+
+
+.cards {
+  grid-area: selecao;
+  /* background-color: purple; */
+  height: 500px;
+  width: 500px;
+
+ align-self: center;
+ justify-self: center;
+
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+
+
+ padding: 5px;
+ grid-gap: 5px;
+
+}
+
+.card {
+    /* background-color: red; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.card:hover {
+    border: 3px solid rgb(255, 106, 0);
+    /* box-shadow: rgba(0, 113, 243, 0.618) 0px 0px 0px 2px, rgba(11, 175, 225, 0.412) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+}
+
+.card.fixado {
+    border: 3px solid rgb(255, 106, 0);
+}
+
+
+.card-bison {
+    background-image: url('../img/ryu.jpg');
+    background-position: center top;
+}
+
+ .card-ryu {
+    background-image: url('../img/ryu.jpg');
+    background-position: center top;
+}
+
+
+.card-blanka {
+    background-image: url('../img/ryu.jpg');
+    background-position: center top;
+}
+
+
+.card-chun-li {
+    background-image: url('../img/ryu.jpg');
+    background-position: center top;
+}
+
+.card-dalsin {
+    background-image: url('../img/ryu.jpg');
+    background-position: center top;
+}
+
+.card-ken {
+    background-image: url('../img/ryu.jpg');
+    background-position: center top;
+} 
+
+
+.nome-player1 {
+    grid-area: nome1;
+    background-image: linear-gradient(to right, red 20%, black 90%);
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    justify-self: center;
+    align-self: flex-start;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+.vs{
+    grid-area: vs;
+    font-size: 3.5em;
+    color: yellow;
+    font-weight: bold;
+    font-style:italic; 
+    justify-self: center;
+    align-self: flex-start;
+}
+
+.nome-player2 {
+    grid-area: nome2;
+    background-image: linear-gradient(to left, red 20%, black 90%);
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    justify-self: center;
+    align-self: flex-start;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-right: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
