@@ -145,6 +145,7 @@
 }
 
 .p-bison {
+  font-weight: bolder;
     padding: 10px;
     color: rgb(255, 106, 0);
 }
