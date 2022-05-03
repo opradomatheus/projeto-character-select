@@ -12,74 +12,127 @@
     <title>Street Fighter IV</title>
   </head>
 
-<style>
-
+  <style>
     audio {
-        display: none;
-        visibility: hidden;  
+      display: none;
+      visibility: hidden;
     }
-</style>
+  </style>
 
   <body>
-
     <audio controls autoplay src="assets/song.mp3" type="audio/mp3"></audio>
 
     <main class="containter">
-      <img
+      <!-- <img
         class="logo"
         src="assets/img/logo-sf.jpg"
         alt="logo-street-fighter"
-      />
+      /> -->
+
+      <h1 class="logo">CHOOSE YOUR CHARACTER</h1>
 
       <div class="player1">
-        <img class="img-player" src="assets/img/ryu.jpg" alt="" />
-<!-- 
-        <img class="img-player" src="assets/img/ryu.jpg" alt="" />
+        <img
+          class="img-ryu player aberto"
+          id="card-ryu"
+          src="assets/img/ryu.jpg"
+          alt=""
+        />
 
-        <img class="img-player" src="assets/img/ryu.jpg" alt="" />
+        <img
+          class="img-blanka player"
+          id="card-blanka"
+          src="assets/img/blanka.jpg"
+          alt=""
+        />
 
-        <img class="img-player" src="assets/img/ryu.jpg" alt="" />
+        <img
+          class="img-chun-li player"
+          id="card-chun-li"
+          src="assets/img/chun-li.jpg"
+          alt=""
+        />
 
-        <img class="img-player" src="assets/img/ryu.jpg" alt="" />
+        <img
+          class="img-dalsin player"
+          id="card-dalsin"
+          src="assets/img/dalsin.jpg"
+          alt=""
+        />
 
-        <img class="img-player" src="assets/img/ryu.jpg" alt="" /> -->
+        <img
+          class="img-ken player"
+          id="card-ken"
+          src="assets/img/ken.jpg"
+          alt=""
+        />
+
+        <img
+          class="img-bison player"
+          id="card-bison"
+          src="assets/img/bison.jpg"
+          alt=""
+        />
       </div>
 
       <div class="cards">
-        <div class="card card-ryu">
+        <div class="card card-ryu ativo" id="ryu">
+          <p class="p-player ativo">1P</p>
         </div>
 
-        <div class="card card-ken"></div>
+        <div class="card card-bison" id="bison">
+          <p class="p-player">1P</p>
+        </div>
 
-        <div class="card card-chun-li"></div>
+        <div class="card card-chun-li" id="chun-li">
+          <p class="p-player">1P</p>
+        </div>
 
-        <div class="card card-blanka"></div>
+        <div class="card card-blanka" id="blanka">
+          <p class="p-player">1P</p>
+        </div>
 
-        <div class="card card-dalsin"></div>
+        <div class="card card-dalsin" id="dalsin">
+          <p class="p-player">1P</p>
+        </div>
 
-        <div class="card card-blanka"></div>
+        <div class="card card-blanka" id="blanka">
+          <p class="p-player">1P</p>
+        </div>
         
-        <div class="card card-blanka"></div>
+        <div class="card card-chun-li" id="chun-li">
+          <p class="p-player">1P</p>
+        </div>
 
-        <div class="card card-dalsin"></div>
+        <div class="card card-dalsin" id="dalsin">
+          <p class="p-player">1P</p>
+        </div>
 
-        <div class="card card-bison fixado">
-            <p class="p-bison"> 2P</p> 
-               
+        <div class="card card-ken fixado" id="ken">
+          <p class="p-bison">2P</p>
         </div>
       </div>
 
       <div class="player2">
-        <img class="img-player" src="assets/img/ryu.jpg" alt="" />
+        <img class="img-player" src="assets/img/ken.jpg" alt="" />
       </div>
 
-      <span class="nome-player1"> Ryu </span>
+      <span class="nome-player1 aberto"> Ryu </span>
 
+      <span class="nome-player1"> Ken </span>
+
+      <span class="nome-player1"> Chun-li</span>
+
+      <span class="nome-player1"> Blanka </span>
+
+      <span class="nome-player1"> Dalsin </span>
+
+      <span class="nome-player1"> Bison </span>
       <span class="vs"> VS </span>
 
-      <span class="nome-player2"> Ryu </span>
+      <span class="nome-player2"> Bison </span>
     </main>
 
-    <script src="assets/js/scrips.js"></script>
+    <script src="assets/js/int.js"></script>
   </body>
 </html>
