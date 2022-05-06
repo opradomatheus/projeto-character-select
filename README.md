@@ -1,4 +1,4 @@
-# projeto-chraracter-select
+# projeto-character-select
  Tela para selação de personagem de jogo de luta
 
 
