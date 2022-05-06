@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <meta name="description" content="Página de seleção de personagens feita com HTML, CSS e JS básico">
+
+    
+    <!-- Reset dos estilos da página  -->
 
     <link rel="stylesheet" href="assets/css/reset.css" />
 
+    <!-- Estilização principal do site  -->
+
     <link rel="stylesheet" href="assets/css/principal.css" />
+
+    <!-- Fonte importada do Google fonts  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
     <title>Street Fighter IV</title>
   </head>
@@ -77,7 +90,7 @@
 
       <div class="cards">
         <div class="card card-ryu ativo" id="ryu">
-          <p class="p-player ativo">1P</p>
+          <p class="p-player selecionado">1P</p>
         </div>
 
         <div class="card card-bison" id="bison">
@@ -117,20 +130,21 @@
         <img class="img-player" src="assets/img/ken.jpg" alt="" />
       </div>
 
-      <span class="nome-player1 aberto"> Ryu </span>
+      <span class="nome-player1 selecionado" id="ryu"> Ryu </span>
 
-      <span class="nome-player1"> Ken </span>
+      <span class="nome-player1" id="ken"> Ken </span>
 
-      <span class="nome-player1"> Chun-li</span>
+      <span class="nome-player1" id="chun-li"> Chun-li</span>
 
-      <span class="nome-player1"> Blanka </span>
+      <span class="nome-player1" id="blanka"> Blanka </span>
 
-      <span class="nome-player1"> Dalsin </span>
+      <span class="nome-player1" id="dalsin"> Dalsin </span>
 
-      <span class="nome-player1"> Bison </span>
+      <span class="nome-player1" id="bison"> Bison </span>
+
       <span class="vs"> VS </span>
 
-      <span class="nome-player2"> Bison </span>
+      <span class="nome-player2" id="ken"> Ken </span>
     </main>
 
     <script src="assets/js/int.js"></script>

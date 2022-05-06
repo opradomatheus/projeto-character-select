@@ -15,6 +15,7 @@
   justify-self: center;
 
   color: yellow;
+  font-family: 'Permanent marker', cursive;
   font-size: 3.5em;
 }
 
@@ -85,8 +86,8 @@
 
 .card:hover {
     border: 2px solid #0ba9ca;
-    -webkit-animation: blink 0.7s infinite ease alternate;
-    animation: blink 0.7s infinite alternate;
+    -webkit-animation: blink 0.4s infinite alternate;
+    animation: blink 0.4s infinite alternate;
 }
 
 
@@ -119,8 +120,8 @@
 
 .card.fixado {
     border: 2px solid #ff6a00;
-    animation: blink 0.7s infinite ease alternate;
-    -webkit-animation: blinkII 0.7s infinite ease alternate;
+    animation: blinkII 0.4s infinite ease alternate;
+    -webkit-animation: blinkII 0.4s infinite ease alternate;
 }
 
 
@@ -193,7 +194,7 @@
 } 
 
 
-.nome-player1.aberto {
+.nome-player1.selecionado {
     grid-area: nome1;
     background-image: linear-gradient(to right, #0ba9ca 20%, black 90%);
     text-align: center;
@@ -215,7 +216,8 @@
 
 .vs{
     grid-area: vs;
-    font-size: 3.5em;
+    font-family: 'Permanent marker', cursive;
+    font-size: 4em;
     color: yellow;
     font-weight: bold;
     font-style:italic; 

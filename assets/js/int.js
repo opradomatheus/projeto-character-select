@@ -33,11 +33,11 @@ listaSelecaoPersonagens.forEach(street => {
         const ativoNaListagem = document.querySelector('.ativo')
         
         ativoNaListagem.classList.remove('ativo')
-        
 
         const selecionadoNaListagem = document.getElementById(idSelecionado)
 
         selecionadoNaListagem.classList.add('ativo')
+
 
     })
 })
