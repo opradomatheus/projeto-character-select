@@ -1,7 +1,7 @@
 .containter {
   height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 650px 1fr;
+  grid-template-columns: 1fr 500px 1fr;
   grid-template-rows: 200px 1fr 100px;
   grid-template-areas:
     "titulo titulo titulo"
@@ -21,7 +21,7 @@
 
 .player1 {
   grid-area: player1;
-  justify-self: flex-end;
+  justify-self: center;
   align-self: center;
 }
 
@@ -38,15 +38,13 @@
 }
 
 .player {
-  width: 450px;
+  width: 200px;
   display: none;
 }
 
 .player2 {
-  width:450px;
+  width: 200px;
 }
-
-
 
 .player.aberto
 {
@@ -56,8 +54,8 @@
 
 .cards {
   grid-area: selecao;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 
  align-self: center;
  justify-self: center;
@@ -151,8 +149,9 @@
   
 
 
-.card-bison {
-    background-image: url('../img/bison.jpg');
+.card-kurapika {
+    background-image: url('../img/Kurapika_Portrait_3.webp');
+    background-size: cover;
     background-position: center center;
 
     display: flex;
@@ -160,38 +159,65 @@
     align-items: flex-start;
 }
 
-.p-bison {
+.p-meruem {
     font-weight: bolder;
     padding: 10px;
+    max-width: 300px;
     color: rgb(255, 106, 0);
 }
 
- .card-ryu {
-    background-image: url('../img/ryu.jpg');
-    background-position: center top;
+ .card-chrollo {
+    background-image: url('../img/Chrollo_Portrait.webp');
+    background-size: cover;
+    background-position: center center;
 }
 
 
-.card-blanka {
-    background-image: url('../img/blanka.jpg');
-    background-position: center top;
+.card-gon{
+    background-image: url('../img/Gon_Freecss_GI_Portrait.webp');
+    background-size: cover;
+    background-position: center center;
 }
 
 
-.card-chun-li {
-    background-image: url('../img/chun-li.jpg');
+.card-hisoka {
+    background-image: url('../img/Hisoka_Morow_HCE_Portrait.webp');
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-illumi {
+    background-image: url('../img/Illumi_Zoldyck_2011.webp');
     background-position: center top;
 }
 
-.card-dalsin {
-    background-image: url('../img/dalsin.jpg');
-    background-position: center top;
-}
-
-.card-ken {
-    background-image: url('../img/ken.jpg');
-    background-position: center top;
+.card-meruem {
+    background-image: url('../img/Meruem_CA_Portrait.webp');
+    background-size: cover;
+    background-position: center center;
 } 
+
+
+.card-netero{
+  background-image: url('../img/Isaac_Netero_HE_Portrait.webp');
+  background-size: cover;
+  background-position: center center;
+} 
+
+
+
+.card-leorio{
+  background-image: url('../img/Leorio_Paradinight_YC_Portrait.webp');
+  background-size: cover;
+  background-position: center center;
+} 
+
+.card-killua{
+  background-image: url('../img/Killua_Zoldyck_HE_Portrait.webp');
+  background-size: cover;
+  background-position: center center;
+} 
+
 
 
 .nome-player1.selecionado {

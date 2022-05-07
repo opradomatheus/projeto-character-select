@@ -8,6 +8,8 @@
 
 body {
     min-height: 100vh;
-    background-image: url(../img/gif.gif);
-    background-size: cover;
+    /* background-image: url(../img/gif.gif);
+    background-size: cover; */
+
+    background-image: linear-gradient(to bottom, rgb(40, 40, 40), #000);
 }
