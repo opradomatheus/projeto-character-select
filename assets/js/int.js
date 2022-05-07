@@ -8,7 +8,7 @@ const nomePlayer = document.querySelector('.nome-player1')
 
 
 listaSelecaoPersonagens.forEach(street => {
-    street.addEventListener('mouseover', () =>{
+    street.addEventListener('click', () =>{
         //Remover a classe "aberto" só do cartão que está aberto.
 
         const cartaoAberto = document.querySelector('.aberto')

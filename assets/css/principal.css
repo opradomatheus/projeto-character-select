@@ -21,7 +21,7 @@
 
 .player1 {
   grid-area: player1;
-  justify-self: center;
+  justify-self: flex-end;
   align-self: center;
 }
 
@@ -80,6 +80,12 @@
     cursor: pointer;
     border: 2px solid white;
 
+}
+
+
+.card:focus {
+  -webkit-animation: blink 0.4s infinite alternate;
+  animation: blink 0.4s infinite alternate;
 }
 
 .card:hover {
