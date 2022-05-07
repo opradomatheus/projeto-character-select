@@ -243,12 +243,14 @@
 .vs{
     grid-area: vs;
     font-family: 'Permanent marker', cursive;
-    font-size: 4em;
-    color: yellow;
+    font-size: 100px;
+    color: orangered;
     font-weight: bold;
     font-style:italic; 
     justify-self: center;
     align-self: flex-start;
+
+    margin-top: -70px;
 }
 
 .nome-player2 {
